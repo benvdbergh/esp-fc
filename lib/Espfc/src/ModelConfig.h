@@ -842,7 +842,7 @@ class ModelConfig
       featureMask = FEATURE_RX_SERIAL | FEATURE_SOFTSERIAL | FEATURE_DYNAMIC_FILTER;
     #endif
 
-      input.serialRxProvider = SERIALRX_SBUS;
+      input.serialRxProvider = SERIALRX_CRSF;
 
       lowThrottleZeroIterm = true;
 
